@@ -1,0 +1,43 @@
+.tasks{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    position:relative ;
+}
+
+.task-inputs{
+    border: none;
+    outline: none;
+}
+
+.task-inputs-div{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+}
+
+#textarea{
+    display: none;
+}
+
+.task-card{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.task-card-p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.del{
+    color: brown;
+}
+
+.upd{
+    color: rgb(237, 202, 0);
+}
+
+.card-icon{
+    cursor: pointer;
+}
+
